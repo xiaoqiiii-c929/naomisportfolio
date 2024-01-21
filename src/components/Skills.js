@@ -113,7 +113,7 @@ export const Skills = () => {
     },
     {
       id: 18,
-      title: "Ardruino",
+      title: "Arduino",
       imgUrl: arduino,
     },
     {
