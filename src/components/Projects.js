@@ -44,7 +44,7 @@ export const Projects = () => {
       title: "Automation Script",
       description: "Python | Selenium | Appium",
       imgUrl: projImg5,
-      previewUrl: "/",
+      previewUrl: "https://phase-sailboat-a20.notion.site/Automation-Script-Freelance-Project-56762b5c03af40b494a1b1cd221c6fc6?pvs=4",
     },
   ];
 
