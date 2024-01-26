@@ -1,6 +1,7 @@
 import { useState, useEffect } from "react";
 import { Container, Row, Col } from "react-bootstrap";
 import headerImg from "../assets/img/header-img1.png";
+import resume from "../assets/Resume_Minyi_Naomi_Liu.pdf";
 import { ArrowRightCircle } from 'react-bootstrap-icons';
 import 'animate.css';
 import TrackVisibility from 'react-on-screen';
@@ -58,7 +59,7 @@ export const Banner = () => {
                 <h1>{`Hi! I'm Naomi, `} <span className="txt-rotate" dataPeriod="1000" data-rotate='[ "Software Engineer", "Cal Sophomore", "Full-Stack Developer" ]'><span className="wrap">{text}</span></span></h1>
                   <p>Hi, This is Naomi, a passionate and inventive software engineer who enjoy facing challenges and working things out from scratch. My journey in tech is driven by a relentless curiosity and a commitment to creating innovative solutions that make a real-world impact. From developing an advanced plant imaging system to leading a full-stack web development project, I thrive on challenges that require both creative and analytical thinking.</p>
                   <a>Always Curious and Always Learning. Welcome to my portfolio, created within 15 hrs using React, Bootstrap, and Framer Motion — technologies I had never worked with before.</a>
-                  <button onClick={() => window.open('https://drive.google.com/file/d/1D26jevzk-dkCFDdG32jeTBILkK1jd0ap/view?usp=sharing', '_blank')}>Downlowd my CV <ArrowRightCircle size={25} /></button>
+                  <button onClick={() => window.open(resume, '_blank')}>Downlowd my CV <ArrowRightCircle size={25} /></button>
               </div>}
             </TrackVisibility>
           </Col>
