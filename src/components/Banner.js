@@ -57,7 +57,7 @@ export const Banner = () => {
               {({ isVisible }) =>
               <div className={isVisible ? "animate__animated animate__fadeIn" : ""}>
                 <h1>{`Hi! I'm Naomi, `} <span className="txt-rotate" dataPeriod="1000" data-rotate='[ "Software Engineer", "Cal Sophomore", "Full-Stack Developer" ]'><span className="wrap">{text}</span></span></h1>
-                  <a>Always Curious and Always Learning. <br></br>Welcome to my portfolio, created within 15 hrs using React, Bootstrap, and Framer Motion — technologies I had never worked with before.</a>
+                  <a>Always Curious and Always Learning. <br></br>Welcome to my portfolio, created within 15 hrs using JavaScript, React, Bootstrap, and Framer Motion — technologies I had never worked with before.</a>
                   <p><br></br>Hi, This is Naomi, a passionate and inventive software engineer who enjoy facing challenges and working things out from scratch. My journey in tech is driven by a relentless curiosity and a commitment to creating innovative solutions that make a real-world impact. From developing an advanced plant imaging system to leading a full-stack web development project, I thrive on challenges that require both creative and analytical thinking.</p>
                   <button onClick={() => window.open(resume, '_blank')}>Downlowd my CV <ArrowRightCircle size={25} /></button>
               </div>}
