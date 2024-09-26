@@ -1,7 +1,7 @@
 import { useState, useEffect } from "react";
 import { Container, Row, Col } from "react-bootstrap";
 import headerImg from "../assets/img/header-img1.png";
-import resume from "../assets/Resume_Minyi_Naomi_Liu.pdf";
+import resume from "../assets/Resume_Minyi (Naomi) Liu.pdf";
 import { ArrowRightCircle } from 'react-bootstrap-icons';
 import 'animate.css';
 import TrackVisibility from 'react-on-screen';
